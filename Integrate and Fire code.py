@@ -19,7 +19,7 @@ import matplotlib.pyplot as plt
 # --- Neuron Parameters (realistic, in mV and pA) ---
 C = 200.0       #capacitance
 V_th = -55.0    #voltage threshold
-V_reset = -65.0 #voltage when the membrane is hyperpolarized right after action potential
+V_reset = -85.0 #voltage when the membrane is hyperpolarized right after action potential
 V_rest = -70.0  #voltage of membrane at rest
 I_ext = 100   #external input current
 dt = 0.1        #delta time = change in time
